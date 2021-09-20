@@ -9,6 +9,10 @@ public class Main {
         newEmpleado.imprimirNombre();
 
         newEmpleado.setNombre("Juan");
+        newEmpleado.setApellido("Valdez");
+        newEmpleado.imprimirNombre();
+
+        newEmpleado.setNombre("Jorge").setApellido("Pecas").imprimirNombre();
         newEmpleado.imprimirNombre();
     }
 }

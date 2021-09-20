@@ -13,16 +13,18 @@ public class Empleado {
         return nombre;
     }
 
-    public void setNombre(String n) {
-        nombre = n;
+    public Empleado setNombre(String n) {
+        this.nombre = n;
+        return this;
     }
 
     public String getApellido() {
         return apellido;
     }
 
-    public void setApellido(String n) {
-        nombre = n;
+    public Empleado setApellido(String n) {
+        this.apellido = n;
+        return this;
     }
 
     public void imprimirNombre() {
