@@ -7,12 +7,18 @@ public class Main {
 
         Empleado newEmpleado = new Empleado(nombreEmpleado, apellidoEmpleado);
         newEmpleado.imprimirNombre();
+        newEmpleado.areaEmpleado();
+        newEmpleado.departamento();
+        newEmpleado.coordinacion();
+        newEmpleado.salarioEmpleado();
 
         newEmpleado.setNombre("Juan");
         newEmpleado.setApellido("Valdez");
         newEmpleado.imprimirNombre();
+        newEmpleado.areaEmpleado();
+        newEmpleado.departamento();
+        newEmpleado.coordinacion();
+        newEmpleado.salarioEmpleado();
 
-        newEmpleado.setNombre("Jorge").setApellido("Pecas").imprimirNombre();
-        newEmpleado.imprimirNombre();
     }
 }
